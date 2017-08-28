@@ -14,7 +14,7 @@ require('style!css!sass!applicationStyles')
 ReactDOM.render(
   <div>
     <ComponentOne></ComponentOne>
-    <ComponentTwo></ComponentTwo>
+    <ComponentTwo count={10}></ComponentTwo>
   </div>,
   document.getElementById('app')
 );
